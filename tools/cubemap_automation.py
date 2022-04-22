@@ -22,7 +22,7 @@ if bpy.data.scenes["Scene"].camera != myCamera:
 
 
 
-def renderCubemapFace(direction): # Render a "face" of the cubemap, in the specified direction
+def renderCubemapFace(direction): # Render a face of the cubemap in the specified direction
     
     bpy.context.scene.render.filepath = originalFilepath + direction + ".png" # set filepath
     
