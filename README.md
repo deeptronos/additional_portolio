@@ -1,8 +1,8 @@
 # README
-This repository is home to a few additional things which, I think, potential employers/coworkers/buddies could be interested in, and which aren't yet displayed elsewhere. 
+This repository is home to a few additional things which, I think, potential employers/coworkers/buddies could be interested in, and which aren't yet displayed elsewhere. The programming here is less professional than my typical work, as it was done to quickly extend the functionality of the software I use, so other repositories on my GitHub may be a more accurate representation of my true output.
 
 ## /tools/
-There are three Python scripts here which are examples of the tools I create as part of my visual art worflow. Many of them have very simple but specific uses, and were created in an hour or less as the need arose. A description of each follows...
+There are three Python scripts here which are examples of the casual tools I create as part of my visual art worflow. Many of them have very simple but specific uses, and were created in an hour or less as the need arose. A description of each follows...
 
 ### batch_render_general.py
 This was created for rendering sprites of the 3D art I created for *Dreams of Digital Demise Act I: Atyxia*, a small video game which I primarily worked on during a month of my senior year of high school (the repository which I used for this project is publicly available on my GitHub profile [here](https://github.com/deeptronos/atyxia)). It was created inside Blender, my 3D software of choice, so it probably won't be useful (or usable) outside of a Blender context.\
