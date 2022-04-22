@@ -27,24 +27,8 @@ bpy.data.scenes["Scene"].objects['CameraCenter'].rotation_euler[2] = 0
 orig_base_path = bpy.data.scenes["Scene"].node_tree.nodes["File Output"].base_path 
  
 viewport_state = False 
- 
-#Messy fix to solve the weird way Blender doesn't let you rearrange view later orders in the GUI
-#if bpy.data.scenes["Scene"].view_layers.items()[2][0] == 'Body':
-#  
-#    init_body_layer = bpy.data.scenes["Scene"].view_layers.items()[2]
-#    init_head_layer = bpy.data.scenes["Scene"].view_layers.items()[3]
 
-#    bpy.data.scenes["Scene"].view_layers.items()[2] = init_head_layer
-#    bpy.data.scenes["Scene"].view_layers.items()[3] = init_body_layer
-
-
-#finding active render passes:
-#render_passes = []
-#for attr in dir(bpy.context.view_layer):
-#    if attr.startswith("use_pass") and getattr(bpy.context.view_layer, attr) == True:
-#        render_passes.append(attr)
-    
-
+   
 for i in range(int(angles)):
     #Reset the variable each time, so that we aren't adding numbers each time
     base_path = orig_base_path
