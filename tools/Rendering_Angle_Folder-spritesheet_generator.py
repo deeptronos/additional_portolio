@@ -48,8 +48,6 @@ for i in parent_dir_contents:
 		print("non-angle file found, skipping...")
 		continue
 
-
-
 for current_angle_directory in angle_directories:
 	print("-------NEW ANGLE-------")
 	frames = []
@@ -75,18 +73,6 @@ for current_angle_directory in angle_directories:
 	#There will probably be more animation frames than non-animation frames, and we want all of them to be in one row, so:
 	spritesheet_width = len(frames) * tile_width
 	spritesheet_height = tile_height
-	# if(animation_frame_files != []):
-	# 	spritesheet_width = len(animation_frame_files) * tile_width
-	# 	spritesheet_height = tile_height * 2
-
-	# else:
-	# 	spritesheet_width = len(current_angle_directory_contents) * tile_width
-	# 	spritesheet_height = tile_height
-
-	# print(spritesheet_width)
-	# print(spritesheet_height)
-	# print(frames)
-	# print(animation_frame_files)
 
 	spritesheet = Image.new("RGBA", (int(spritesheet_width), int(spritesheet_height)))
 	spritesheet.save("spritesheet.png", "PNG")
